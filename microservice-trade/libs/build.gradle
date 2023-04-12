@@ -1,12 +1,5 @@
-project(":microservice-trade:libs:application"){
+subprojects {
 	dependencies {
 		implementation 'org.springframework.boot:spring-boot-starter-web'
-	}
-}
-
-project(":microservice-trade:libs:adapter-persistence"){
-	dependencies {
-		implementation 'org.springframework.boot:spring-boot-starter-web'
-		implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	}
 }
