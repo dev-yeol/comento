@@ -1,1 +1,11 @@
 rootProject.name = 'comento'
+include 'microservice-trade'
+include 'microservice-trade:apps'
+include 'microservice-trade:apps:app-api'
+include 'microservice-trade:apps:app-batch'
+include 'microservice-trade:libs'
+include 'microservice-trade:libs:adapter-http'
+include 'microservice-trade:libs:adapter-persistence'
+include 'microservice-trade:libs:application'
+include 'microservice-trade:protocol'
+
