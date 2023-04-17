@@ -1,0 +1,5 @@
+project(":microservice-trade:libs:adapter-http"){
+	dependencies {
+		implementation project(":microservice-trade:libs:application")
+	}
+}

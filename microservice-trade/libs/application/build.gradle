@@ -1,0 +1,5 @@
+project(":microservice-trade:libs:application"){
+	dependencies {
+		implementation 'org.projectlombok:lombok:1.18.26'
+	}
+}

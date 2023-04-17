@@ -1,0 +1,3 @@
+http:
+  upbit:
+    base-url: https://api.upbit.com

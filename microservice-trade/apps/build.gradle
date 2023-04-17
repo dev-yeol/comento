@@ -6,6 +6,7 @@ subprojects {
 
 project(":microservice-trade:apps:app-api"){
 	dependencies {
+		implementation project(":microservice-trade:libs:adapter-http")
 		implementation project(":microservice-trade:libs:application")
 	}
 }
